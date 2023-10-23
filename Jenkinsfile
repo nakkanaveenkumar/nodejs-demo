@@ -1,7 +1,7 @@
 pipeline {
     agent any 
     environment {
-    DOCKERHUB_CREDENTIALS = credentials('naveennakka-docker')
+    DOCKERHUB_CREDENTIALS = credentials('naveennakka/my_linux')
     }
     stages { 
         stage('SCM Checkout') {
